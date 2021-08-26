@@ -1,4 +1,4 @@
-public class compileOrNot {
+public class CompileOrNot {
     public static void findAnswer(boolean check) {
         int answer;
         int onlyOneBranch;
