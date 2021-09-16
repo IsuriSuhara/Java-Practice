@@ -6,7 +6,8 @@ public class OverloadingConstructors {
     private int weight;
     public OverloadingConstructors(int weight) { // first constructor
         //System.out.println("in constructor");
-        this(weight, "brown");//If you choose to call it, the this() call
+        this(weight, "brown");//calls the second constructor
+        //If you choose to call it, the this() call
         //must be the first noncommented statement in the constructor.
         //this.weight = weight;
         //color = "brown";
